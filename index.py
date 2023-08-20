@@ -2,7 +2,7 @@ from deep_translator import GoogleTranslator
 from PIL import Image
 import pytesseract
 
-im_file = "/content/data/test2.jpg"
+im_file = "test2.jpg"
 
 im = Image.open(im_file)
 
